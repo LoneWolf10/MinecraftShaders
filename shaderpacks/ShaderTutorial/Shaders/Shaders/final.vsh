@@ -1,10 +1,10 @@
 #version 120
 
-varying vec4 textcoord;
+varying vec4 texcoord;
 
 void main()
 {
   gl_Position = ftransform();
 
-  textcoord = gl_MultiTexCoord0;
+  texcoord = gl_MultiTexCoord0;
 }
