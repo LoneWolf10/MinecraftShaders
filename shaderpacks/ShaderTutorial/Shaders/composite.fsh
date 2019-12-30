@@ -1,5 +1,5 @@
 #version 120
-
+ffffff
 varying vec4 textcoord;
 uniform sampler2D gcolor;
 uniform sampler2D gnormal;
@@ -23,4 +23,4 @@ gl_FragData[1]=  vec4(finalCompositeNormal,1.0);
 gl_FragData[2]=  vec4(finalCompositeDepth,1.0);
 
 //color.g = color.g * 2.0;
-}  
+}
